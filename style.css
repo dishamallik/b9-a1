@@ -1,0 +1,48 @@
+/*header section */
+.header-text{
+    text-align: center;
+    
+    color:#FFFFFF;
+    margin: 100px;
+    
+    background-image: url(images/Banner\ Image.png) ;
+    
+    padding: 15%;
+    background-size: cover;
+    height: 100%;
+    margin: 0%;
+    background-position: 10%;
+    max-width: 1140px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10.729px;
+    
+font-family: Merriweather;
+font-size: 20px;
+
+font-weight: 900;
+ 
+}
+.back-color{
+    background-color:rgba(0, 0, 0, 0.5);
+    
+}
+.main1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.color-lines{
+    
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+}
+.main1-img{
+    margin-top: 70px ;
+    text-align: center;
+    
+
+}
