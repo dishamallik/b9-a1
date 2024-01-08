@@ -1,34 +1,32 @@
 /*header section */
-.header-text{
-    
- 
-    margin: 100px;
-    
-    background-image:  url(images/Banner\ Image.png) ;
-     filter:brightness(50%);
+.header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(images/Banner\ Image.png);
     background-size: cover;
-    padding: 15%;
-    
-    height: 100%;
-    margin: 0%;
     background-position: 50%;
-    max-width: 1140px;
     margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10.729px;
-    font-family: Merriweather;
-font-size: 20px;
-font-weight: 900;
-text-align: center;
+        margin-right: 5%;
+        border-radius: 10.729px;
+        max-width: 1140px;
+    }
+    .overlay{
+        
+        width: 100%;
+        height: 100%;
+        font-size: 26px;
+        color: white;
+        text-align: center;
+         background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10.729px;
+        
+    }
     
-}
-    
- .back-color{
-    color: #FFF;
- }   
-
-
-
 /*main 1*/
 
 .main1{
@@ -52,23 +50,43 @@ font-weight: 700;
 }
 .main2{
     background-image: url(images/Vectorrr.png) ;
-    filter: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
     
-    background-size: cover; 
-
-    padding: 15%;
     background-size: cover;
-    height: 100%;
-    margin: 0%;
-    background-position: 40%;
-    max-width: 1140px;
+    background-position: 50%;
     margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10.729px;
-    margin: 100px;
+        margin-right: 5%;
+        border-radius: 10.729px;
+        max-width: 1140px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.main2-text{
+    width: 100%;
+        height: 100%;
+        font-size: 26px;
+        color: white;
+        display: flex;
+        border-radius:10.729px;
+         background-color: rgba(0, 0, 0, 0.5);
+       text-align: left;      
+}
+.Group{
+    padding: 40px;
+    margin: 30px;
+    
+
+
     
 }
+
+.padding{
+    padding: 130px;
+    
+}
+
 .bold{
     color: #FFF;
 font-family: Merriweather;
@@ -87,6 +105,14 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px; 
 }
+
+.button0{
+    color: rgb(180, 182, 182);
+}
+
+
+
+
 /*main 3 */
 .red{
     color: #F00;
@@ -164,19 +190,25 @@ font-weight: 900;
     text-align: center;
     margin-top: 10%;
  }
+ /* main6 */
  .rec{
     text-align: right;
     max-width: 1140px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 40px;
+    position: relative;
+   
     
 }
+
 .img{
     width: 300px;
     height: 300px;
+    
 }
 .red-border{
+    
     max-width: 1140px;
     margin-left: 5%;
     margin-right: 5%;
@@ -191,7 +223,42 @@ font-weight: 900;
 .imgs{
     width: 375px;
     height: 375px;
+    
 }
+.round0{
+
+    position: absolute;
+    left: 650px;
+    top: 10px
+}
+.box{
+    position:relative;
+    
+}
+.box-style{
+    position: absolute;
+    
+    left: 100px;
+    top: -300px;
+    
+    padding: 60px;
+    margin: 20px;
+    width: 450px ;
+    height: 400px ;
+
+
+}
+
+
+
+R{
+    gap: 5px,20px;
+    display: flex;
+    
+}
+
+/* main 7 */
+
 .img-rec{
     max-width: 1140px;
     margin-left: 5%;
@@ -245,38 +312,38 @@ font-weight: 900;
 /*footer section */
 .flex{
 
- justify-content: space-around;
-    padding: 30px 50px;
-    background: rgb(32, 31, 31);
-    padding: 30px 230px;
-    margin-top: 100px;
-    gap: 10px;
-    height: auto;
-    color: #ede6e6;
-    
-    
-}
-.lines{
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.icon{
-    text-align: center;
-}
-.un{
-    color: #ede6e6;
-    
-font-family: Inter;
-text-align: right;
-}
-.call{
-    display: flex;
-}
-.web{
-    display: flex;
-}
-.call-web{
-    text-align: right;
-}
+    justify-content: space-around;
+       padding: 30px 50px;
+       background: rgb(32, 31, 31);
+       padding: 30px 230px;
+       margin-top: 100px;
+       gap: 10px;
+       height: auto;
+       color: #ede6e6;
+       
+       
+   }
+   .lines{
+     display: flex;
+     justify-content: space-between;
+   }
+   
+   
+   .icon{
+       text-align: center;
+   }
+   .un{
+       color: #ede6e6;
+       
+   font-family: Inter;
+   text-align: right;
+   }
+   .call{
+       display: flex;
+   }
+   .web{
+       display: flex;
+   }
+   .call-web{
+       text-align: right;
+   }
