@@ -1,34 +1,34 @@
 /*header section */
 .header-text{
-    text-align: center;
     
-    color:#FFFFFF;
+ 
     margin: 100px;
     
-    background-image: url(images/Banner\ Image.png) ;
-    background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.151) 100%);
-
-    
-    padding: 15%;
+    background-image:  url(images/Banner\ Image.png) ;
+     filter:brightness(50%);
     background-size: cover;
+    padding: 15%;
+    
     height: 100%;
     margin: 0%;
-    background-position: 10%;
+    background-position: 50%;
     max-width: 1140px;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10.729px;
-    
-font-family: Merriweather;
+    font-family: Merriweather;
 font-size: 20px;
-
 font-weight: 900;
- 
-}
-.back-color{
+text-align: center;
     
-
 }
+    
+ .back-color{
+    color: #FFF;
+ }   
+
+
+
 /*main 1*/
 
 .main1{
@@ -61,7 +61,7 @@ font-weight: 700;
     background-size: cover;
     height: 100%;
     margin: 0%;
-    background-position: 10%;
+    background-position: 40%;
     max-width: 1140px;
     margin-left: 5%;
     margin-right: 5%;
@@ -107,12 +107,12 @@ line-height: 30px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 15%;
     background-size: cover;
-    height: 100%;
+    height: 80%;
     margin: 0%;
     background-position: 10%;
-    max-width: 1140px;
-    margin-left: 5%;
-    margin-right: 5%;
+    max-width: 1120px;
+    margin-left: 7%;
+    margin-right: 7%;
     border-radius: 10.729px;
     
     
@@ -270,4 +270,13 @@ font-weight: 900;
     
 font-family: Inter;
 text-align: right;
+}
+.call{
+    display: flex;
+}
+.web{
+    display: flex;
+}
+.call-web{
+    text-align: right;
 }
