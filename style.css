@@ -239,7 +239,7 @@ font-weight: 900;
     position: absolute;
     
     left: 100px;
-    top: -300px;
+    top: -340px;
     
     padding: 60px;
     margin: 20px;
@@ -265,6 +265,11 @@ R{
     margin-right: 5%;
     margin-top: 50px;
 }
+
+
+
+/* main 8 */
+
 .email{
     text-align: center;
     
@@ -281,7 +286,7 @@ R{
     border-radius: 10.729px;
     margin-top: 60px;
     
-    
+}
 
    
 .Subscribe{
@@ -307,11 +312,15 @@ R{
     
 }
 
-}
+
 
 /*footer section */
-.flex{
-
+.lines{
+    display: flex;
+    justify-content: space-between;
+       
+}
+.last{
     justify-content: space-around;
        padding: 30px 50px;
        background: rgb(32, 31, 31);
@@ -320,30 +329,21 @@ R{
        gap: 10px;
        height: auto;
        color: #ede6e6;
-       
-       
-   }
-   .lines{
-     display: flex;
-     justify-content: space-between;
-   }
-   
-   
-   .icon{
-       text-align: center;
-   }
-   .un{
-       color: #ede6e6;
-       
-   font-family: Inter;
-   text-align: right;
-   }
-   .call{
-       display: flex;
-   }
-   .web{
-       display: flex;
-   }
-   .call-web{
-       text-align: right;
-   }
+}
+
+.icon{
+    text-align: center;
+}
+.un{
+    color: #ede6e6;
+    
+font-family: Inter;
+text-align: right;
+}
+
+.png0{
+    width: 13px;
+    height: 13px;
+
+
+}
