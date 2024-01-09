@@ -59,9 +59,10 @@ font-weight: 700;
     margin-left: 5%;
         margin-right: 5%;
         border-radius: 10.729px;
-        max-width: 1160px;
+        max-width: 1190px;
     margin-bottom: 50px;
     margin-top: 50px;
+    margin-left: 80px;
 }
 .main2-text{
     width: 100%;
